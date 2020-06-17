@@ -1,0 +1,439 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: avenir;
+}
+
+.section1 { 
+    background: url(img/bg.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    
+}
+nav h1{
+    margin-top: 10px;
+    color: white;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 15px;
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav button {
+    width:7rem ;
+    height:2rem;
+    border-radius:25px;
+    margin-top: 10px;
+    background-color : #1BC768;
+    border: none;
+    color: white;
+  
+
+}
+
+nav button a {
+    text-decoration: none;
+    color: white;
+}
+
+.introduction {
+width:40%;
+padding-left:115px;
+padding-top: 4rem;
+}
+@media only screen and (max-width: 1200px){
+    .inroduction{
+        width: 65%;
+        padding: 8rem 0 0 5rem;
+    }
+}
+.introduction h2 {
+font-size: 40px;
+
+}
+
+.introduction h2,p {
+color: white;
+padding-top: 10px;
+padding-bottom: 20px;
+}
+
+.introduction form input {
+    width:70%;
+    float:left;
+    border-radius: 25px 0px 0px 25px;
+    height:35px;
+    border: none;
+}
+
+.introduction form button{
+    width:30%;
+    float: left;
+    border-radius:0px 25px 25px 0px;
+    background-color: #1BC768;
+    color: white;
+    border: none;
+    height:35px;
+}
+.introduction form {
+    padding: 3rem 0 8rem 0;
+    content:"";
+    clear: both;
+}
+
+.locationbtn button {
+    background-color:transparent;
+    border-radius: 25px;
+    width:20%;
+    border: none;
+    color: white;
+    border: solid 1px white;
+    padding: 10px 0px;
+}
+
+
+.locationbtn button:hover{
+    background-color: #FFFFFF;
+	color: blue;
+
+}
+.main {
+    background-color: #F3F7FF;
+}
+.mainsection1 {
+    width:40%;
+    margin: 0 auto;
+}
+
+.affilations {
+    width: 100%;
+    display: flex;
+    margin-top:20px;
+   
+   
+}
+.affilations img {
+    width: 30%;
+    padding:20px;
+}
+.mainsection1 h1 {
+    text-align:center;
+    color:#043CAA
+}
+.mainsection2{
+    width: 80%;
+    margin: 20px auto;
+}
+.mainsection2 h1 {
+    text-align: center;
+    color:#043CAA
+}
+
+.grid1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    justify-items: center;
+    grid-column-gap: 20rem;
+    
+}
+.key1 {
+    padding-top: 50px;
+
+
+}
+.key1 h2 {
+    color:#043CAA;
+}
+
+.key1 ul {
+    color: #043CAA;
+    padding-bottom:20px;
+}
+
+.key1 button {
+    width:10rem;
+    height:2rem;
+    border-radius: 25px;
+    border:solid 1px #1BC768;
+    color: #1BC768;
+    background-color: white;
+
+}
+.grid1 img {
+    width:50%
+}
+.grid2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    justify-items: center;
+    grid-column-gap: 20rem;
+}
+
+.grid2 img {
+    width:50%;
+    padding-top:50px
+}
+.key2 {
+    padding-top: 90px;
+
+
+}
+.key2 h2 {
+    color:#043CAA;
+}
+
+.key2 ul {
+    color: #043CAA;
+    padding-bottom:20px;
+}
+
+.key2 button {
+    width:10rem;
+    height:2rem;
+    border-radius: 25px;
+    border:solid 1px #1BC768;
+    color: #1BC768;
+    background-color: white;
+}
+
+
+.grid3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    justify-items: center;
+    grid-column-gap: 20rem;
+}
+
+.grid3 img {
+    width:50%;
+    padding-top:50px
+}
+.key3 {
+    padding-top: 90px;
+
+
+}
+.key3 h2 {
+    color:#043CAA;
+}
+
+.key3 ul {
+    color: #043CAA;
+    padding-bottom:20px;
+}
+
+.key3 button {
+    width:10rem;
+    height:2rem;
+    border-radius: 25px;
+    border:solid 1px #1BC768;
+    color: #1BC768;
+    background-color: white;
+}
+
+
+.mainsection3 {
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 100px;
+    padding-bottom:50px;
+    padding-top: 50px;
+}
+
+.testimonialimg img {
+    width:100%;
+    
+}
+
+.testimonial {
+
+}
+
+.testimonial h2{
+
+
+}
+
+.testimonial p {
+    color:#B1A3A3;
+}
+
+#client {
+    color:#043CAA;
+}
+footer {
+    background-color:#043CAA ;
+    padding-top:50px;
+    
+}
+
+.footer1 {
+    display:grid;
+    width:80%;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+    
+}
+
+.newsletter {
+    width:50%;
+}
+.newsletter h2 {
+    color:white;
+    font-size: 24px;
+}
+
+.youremail {
+    width:50%
+
+}
+.youremail h2 {
+    color:white;
+    
+}
+
+.youremail form input {
+    width:70%;
+    float:left;
+    border-radius: 25px 0px 0px 25px;
+    height:35px;
+    border: none;
+}
+
+.youremail form button{
+    width:30%;
+    float: left;
+    border-radius:0px 25px 25px 0px;
+    background-color: #1BC768;
+    color: white;
+    border: none;
+    height:35px;
+}
+.youremail form {
+    padding: 3rem 0 8rem 0;
+    content:"";
+    clear: both;
+}
+
+.footer2 {
+    display:grid;
+    width:80%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 0 auto;
+}
+.footer2 h2 {
+    color:white;
+    
+}
+
+.footer2 ul {
+   list-style: none;
+   padding:2px;
+}
+
+.footer2 a {
+    text-decoration: none;
+    color:white;
+}
+#newbanger {
+    text-align: center;
+    
+}
+
+#newbanger a {
+    text-decoration: none;
+    color: white;
+}
+
+.form{
+    background-color: #043CAA;
+}
+
+.formbody {
+    width:30%;
+    margin:0 auto;
+    background:#F3F7FF;
+    border-radius:50px;
+    
+}
+
+.loginform {
+    width:70%;
+    min-height:500px;
+    margin:20px auto;
+    
+   
+}
+.loginform h2 {
+    text-align: center;
+    font-size: 18px;
+    padding-top:2rem;
+}
+label {
+    color: lightgray;
+    font-weight: bold;
+}
+
+.email2{
+    padding-top:2rem;
+    padding-bottom:2rem;
+
+}
+
+.email{
+    padding-top:2rem;
+    padding-bottom:2rem;
+
+}
+.password{
+    padding-bottom:2rem;
+}
+.lastname{
+    padding-top:2rem;
+    padding-bottom:2rem;
+}
+.firstname{
+    padding-bottom:1rem;
+}
+.loginform input {
+    width:16rem;
+    height:2rem;
+    padding:10px;
+
+}
+
+.loginform button {
+    background:#1BC768;
+    border-radius:3rem;
+    width:16rem;
+    height:2rem;
+    border:none;
+    color:white;
+}
+
+
+.loginform p {
+    color:#4A5568;
+    font-size: 18px;
+}
+.formfooter p {
+    color: lightgray;
+    text-align: center;
+    font-size: 12px;
+}
