@@ -1,0 +1,38 @@
+
+:root {
+    --colorColorPrimaryPrimary0: #000000;    
+    --colorColorPrimaryPrimaryPrimaryColorPrimaryPrimary10: #220660;    
+    --colorColorPrimaryPrimary20: #361a74;    
+    --colorColorPrimaryPrimary30: #4a2e88;    
+    --colorColorPrimaryPrimary40: #4b357d;    
+    --colorColorPrimaryPrimary50: #7256b0;    
+    --colorColorPrimaryPrimary60: #866ac4;    
+    --colorColorPrimaryPrimary70: #9a7ed8;    
+    --colorColorPrimaryPrimary80: #ae92ec;    
+    --colorColorPrimaryPrimary90: #c2a6ff;    
+    --colorColorPrimaryPrimary95: #d6baff;    
+    --colorColorPrimaryPrimary99: #eaceff;    
+    --colorColorPrimaryPrimary100: #ffffff;    
+    --colorColorSecondary0: #000000;    
+    --colorColorSecondary10: #ffde59;    
+    --colorColorSecondary20: #fff26d;    
+    --colorColorSecondary30: #ffff81;    
+    --colorColorSecondary40: #ffff95;    
+    --colorColorSecondary50: #ffffa9;    
+    --colorColorSecondary60: #ffffbd;    
+    --colorColorSecondary70: #ffffc7;    
+    --colorColorSecondary80: #ffffd1;    
+    --colorColorSecondary90: #ffffdb;    
+    --colorColorSecondary95: #ffffe5;    
+    --colorColorSecondary99: #ffffef;    
+    --colorColorSecondary100: #ffffff;    
+    --colorColorRolesPrimary: #5e429c;    
+    --colorColorRolesOnPrimary: #ffffff;    
+    --colorColorRolesPrimaryContainer: #c2a6ff;    
+    --colorColorRolesOnPrimaryContainer: #220660;    
+    --colorColorRolesSecondary: #ffff95;    
+    --colorColorRolesOnSecondary: #ffffff;    
+    --colorColorRolesSecondaryContainer: #ffffdb;    
+    --colorColorRolesOnSecondaryContainer: #ffde59;    
+    --colorTextColor: #edecec;    
+}
